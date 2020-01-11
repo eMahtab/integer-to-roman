@@ -80,6 +80,12 @@ public String intToRoman(int num) {
        return sb.toString(); 
 }
 ```
+Above implementation have runtime complexity of O(n) and space complexity of O(1), note that we are guaranteed that the input number will never be greater than `3999`, so the largest input for our algorithm is known. So the runtime will never be more than, the time it take for input `3999`.
+
+```
+Runtime Complexity = O(n)
+Space Complexity   = O(1)
+```
 
 ## References :
 https://www.youtube.com/watch?v=LBsvAwQbVdw
